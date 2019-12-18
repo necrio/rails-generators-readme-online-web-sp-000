@@ -2,6 +2,7 @@ class PostsController < ApplicationController
   def index
   	@posts = Post.all
   end
+  #This is some grade A garbage. It would be nice not to have an IDE that crashes every lab.
 
   def show
   	@post = Post.find(params[:id])
